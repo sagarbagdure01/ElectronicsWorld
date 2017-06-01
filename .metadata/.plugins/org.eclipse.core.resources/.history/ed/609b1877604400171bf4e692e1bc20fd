@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="form" uri ="http://www.springframework.org/tags/form" %>
+    <%@ taglib uri="http://www.springframework.org/tags" prefix="url" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<center>
+	<url:url value="/saveproduct" var="url"></url:url>
+	<form:form action="${url }" modelAttribute="product">
+	<table>
+		<tr>
+		
+		<td><form:hidden path="pid"/></td>
+		</tr>
+		
+		<tr>
+		<td><label for="pname">Enter Product name</label></td>
+		<td><form:input path="pname"/></td>
+		</tr>
+		
+		<tr>
+		<td><label for="pspecification">Enter Product Specification</label>
+		<td><form:input path="pspecification"/></td>
+		</tr>
+		
+		<tr>
+		<td><label for="pcost">Enter Product Cost </label></td>
+		<td><form:input path="pcost"/></td>
+		</tr>
+		
+		<tr>
+			<td><input type="submit" value="Submit">AddProduct</td>
+		
+	</table>
+	</form:form>
+	</center>
+</body>
+</html>

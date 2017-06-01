@@ -1,0 +1,40 @@
+package com.electronicsworld.model;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class Product
+{
+	
+	@Id
+	@GeneratedValue
+	int pId;
+	String prodName;
+	float price;
+	
+	
+	public Product() {
+		
+	}
+	public int getpId() {
+		return pId;
+	}
+	public void setpId(int pId) {
+		this.pId = pId;
+	}
+	public String getProdName() {
+		return prodName;
+	}
+	public void setProdName(String prodName) {
+		this.prodName = prodName;
+	}
+	public float getPrice() {
+		return price;
+	}
+	public void setPrice(float price) {
+		this.price = price;
+	}
+	
+	
+
+}

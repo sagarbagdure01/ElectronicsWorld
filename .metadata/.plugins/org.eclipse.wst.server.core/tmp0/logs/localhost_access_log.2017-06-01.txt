@@ -1,0 +1,4 @@
+127.0.0.1 - - [01/Jun/2017:11:59:58 +0530] "GET / HTTP/1.1" 404 1081
+0:0:0:0:0:0:0:1 - - [01/Jun/2017:12:00:04 +0530] "GET /electronicsworld/ HTTP/1.1" 200 2734
+0:0:0:0:0:0:0:1 - - [01/Jun/2017:12:00:04 +0530] "GET /electronicsworld/resources/Images/image3.jpg HTTP/1.1" 404 1058
+0:0:0:0:0:0:0:1 - - [01/Jun/2017:12:00:04 +0530] "GET /electronicsworld/resources/Images/image2.jpg HTTP/1.1" 404 1058

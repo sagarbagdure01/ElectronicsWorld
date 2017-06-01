@@ -1,0 +1,5 @@
+package com.electronicsworld.model;
+
+public class Product {
+
+}

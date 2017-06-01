@@ -1,0 +1,24 @@
+
+May 24, 2017 14:05:08.66 NEW SESSION
+May 24, 2017 14:05:08.66 [15628:12484:0524/140508.666:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 14:05:34.46 [15628:12484:0524/140534.465:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 14:06:32.39 [15628:12484:0524/140632.394:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 14:08:15.47 [15628:12484:0524/140815.476:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 14:18:55.67 [15628:12484:0524/141855.678:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 14:25:23.12 [15628:4696:0524/142523.123:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 24, 2017 14:25:24.44 [15628:4696:0524/142524.449:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 24, 2017 14:25:58.76 [15628:4696:0524/142558.763:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 24, 2017 14:59:46.22 [15628:4696:0524/145946.222:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 24, 2017 14:59:46.25 [15628:4696:0524/145946.226:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 24, 2017 15:00:13.99 [15628:4696:0524/150013.993:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+May 24, 2017 15:00:15.43 [15628:4696:0524/150015.429:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+May 24, 2017 15:14:26.38 [15628:4696:0524/151426.377:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+May 24, 2017 15:14:32.89 [15628:4696:0524/151432.897:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -101
+May 24, 2017 18:34:54.72 [15628:12484:0524/183454.726:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 18:35:19.03 [15628:12484:0524/183519.031:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 19:50:59.87 [15628:12484:0524/195057.186:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 24, 2017 21:51:44.27 [15628:12484:0524/215144.272:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 25, 2017 01:01:02.44 [15628:12484:0525/010058.715:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 25, 2017 09:24:51.35 [15628:12484:0525/092451.168:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 25, 2017 09:25:45.31 [15628:12484:0525/092545.314:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+May 25, 2017 09:27:20.65 [15628:12484:0525/092720.656:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.

@@ -1,0 +1,5 @@
+package com.electronicsworld.service;
+
+public interface ProductService {
+
+}

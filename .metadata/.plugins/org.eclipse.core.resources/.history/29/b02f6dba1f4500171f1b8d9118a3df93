@@ -1,0 +1,25 @@
+package com.electronicsworld.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.electronicsworld.DAOImpl.ProductDAOimp;
+import com.electronicsworld.model.Product;
+import com.electronicsworld.serviceImpl.ProductServiceImp;
+
+@Controller
+public class ProductController
+{
+	@Autowired
+	private ProductDAOimp productService;
+	@RequestMapping("/")
+	public String addProduct(Product p)
+	{
+		
+		p.setProdName("abc");
+		p.setPrice(255);
+		productService.addProduct(p);
+		return "";
+	}
+}

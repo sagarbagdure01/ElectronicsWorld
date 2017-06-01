@@ -1,0 +1,5 @@
+package com.electronicsworld.DAO;
+
+public interface IProdictDAO {
+
+}

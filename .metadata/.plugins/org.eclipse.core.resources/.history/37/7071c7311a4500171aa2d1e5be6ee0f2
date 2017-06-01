@@ -1,0 +1,48 @@
+package com.electronicsworld.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.electronicsworld.model.Product;
+import com.electronicsworld.service.IproductService;
+
+@Service
+public class ProductServiceImp implements IproductService {
+
+	public void addProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public List<Product> fetchAllProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String fetchAllProductByJson() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String fetchFlagProductByJson() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Product getProductById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void deleteProduct(int productId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public String productSearchSubCatJson(int subCategoryId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

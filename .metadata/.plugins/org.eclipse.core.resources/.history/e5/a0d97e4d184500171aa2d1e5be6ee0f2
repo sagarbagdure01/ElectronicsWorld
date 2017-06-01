@@ -1,0 +1,9 @@
+package com.electronicsworld.DAO;
+
+import com.electronicsworld.model.Product;
+
+public interface ProductDao
+{
+	void addProduct(Product product);
+
+}

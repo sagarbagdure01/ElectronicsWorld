@@ -1,0 +1,22 @@
+package com.electronicsworld.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.electronicsworld.DAO.ProductDao;
+import com.electronicsworld.model.Product;
+
+@Service
+public class ProductServiceImp 
+{
+	@Autowired
+	ProductDao productDao;
+
+	public void addProduct(Product product) 
+	{
+		productDao.addProduct(product);
+		
+		
+	}
+
+}
